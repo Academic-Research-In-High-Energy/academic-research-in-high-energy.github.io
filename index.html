@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>High Energy Physics — Work in Progress</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    :root {
+      --bg: #0e1117;
+      --card: #161b22;
+      --text: #e6edf3;
+      --muted: #9da7b3;
+      --accent: #f0b90b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #1a1f2b, var(--bg));
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 3rem;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.6rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      margin-top: 2.5rem;
+      font-size: 1.4rem;
+      color: var(--accent);
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: var(--text);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(240,185,11,0.15);
+      color: var(--accent);
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      margin-top: 1rem;
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.6rem;
+      color: var(--muted);
+    }
+
+    .footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .footer span {
+      color: var(--text);
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 2rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <span class="badge">Work in Progress</span>
+
+      <h1>High Energy Physics</h1>
+
+      <p class="muted">
+        This section is under active development and will soon host detailed
+        research material.
+      </p>
+
+      <p>
+        My current work in high-energy physics focuses on the analysis of
+        <strong>heavy-ion collision data</strong> within large-scale
+        international collaborations. The goal is to extract physical insight
+        from complex, strongly interacting systems formed under extreme
+        conditions.
+      </p>
+
+      <h2>Planned content</h2>
+
+      <ul>
+        <li>Overview of heavy-ion collisions and quark–gluon plasma</li>
+        <li>Statistical and Bayesian data analysis pipelines</li>
+        <li>Uncertainty quantification and correlated experimental errors</li>
+        <li>Emulators and surrogate models for computationally expensive simulations</li>
+        <li>Connections between quantum many-body physics and experimental observables</li>
+      </ul>
+
+      <h2>Status</h2>
+
+      <p>
+        This page will evolve as the research progresses, including notes,
+        visualizations, and selected results from ongoing collaborative work.
+      </p>
+
+      <div class="footer">
+        <span>Last update:</span> 2025 · Content will be added incrementally
+      </div>
+    </div>
+  </div>
+</body>
+</html>
